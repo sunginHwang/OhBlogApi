@@ -72,12 +72,7 @@ class Member extends CI_Controller
             $login_result = $this->Member_m->loginMember_m($member_id,$member_password);
             if($login_result['count'] >= 1){
                 $member_key = $login_result['member_key'];
-                $login_user = array(
-                    'member_id'  => $member_id,
-                    'member_key'     => $member_key
-                );
 
-                $this->session->set_userdata($login_user);
                 echo json_encode(array('status'=>'success','msg'=>'','result'=>$member_key),JSON_UNESCAPED_UNICODE);
             }else{
                 echo json_encode(array('status'=>'fail','result'=>'','msg'=>'로그인 실패'),JSON_UNESCAPED_UNICODE);
