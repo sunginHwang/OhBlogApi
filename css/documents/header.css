@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+#div_header {
+	border: 1px solid #ccc; padding: 10px; word-break: break-all; margin: auto; width: 800px; height: 280px;
+}
+
+#div_info_area {
+	position: absolute; width: 400px; padding: 10px;
+}
+
+#div_seal_area {
+	position: absolute; padding: 10px;
+}
+
+#div_title_area {
+	position: absolute; letter-spacing: 10px; width: 100%; z-index: 0; display:none !important;
+}
+
+#div_approval_seal {
+	border-right: 1px solid #aaa; display: inline-block;
+}
+
+.div_config_document {
+	background:
+		url(data:image/gif;base64,R0lGODlhCgAKAIABAPT09P///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCRUY1RUMyNUI3QzMxMUUyOTRBMUZDQTFGNTlCRDUxNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCRUY1RUMyNkI3QzMxMUUyOTRBMUZDQTFGNTlCRDUxNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkJFRjVFQzIzQjdDMzExRTI5NEExRkNBMUY1OUJENTE2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkJFRjVFQzI0QjdDMzExRTI5NEExRkNBMUY1OUJENTE2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAQAAAQAsAAAAAAoACgAAAhCMf4Crm/5gaJA6y+QEvPsCADs=)
+		#fff
+}
+
+.div_seal_header {
+	height: 28px; border-bottom: 1px solid #aaa; border-left: 1px solid #aaa; border-top: 1px solid #aaa;text-align: center;padding-top: 3px;
+}
+
+.div_seal_body {
+	height: 60px; border-bottom: 1px solid #aaa; border-left: 1px solid #aaa;
+}
+
+.div_seal_body div {
+	padding: 1px
+}
+
+.div_seal {
+	width: 80px; float: left;
+}
+
+.div_seal .undo {
+	top: 3px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.table_info td {
+	padding: 0px 3px !important; height:25px
+}
+
+.table_info th {
+	padding: 0px !important; width: 110px; letter-spacing: 5px
+}
+
+.document_extra {
+	position: absolute;
+}

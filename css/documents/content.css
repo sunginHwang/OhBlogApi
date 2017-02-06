@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#div_content{
+	border: 1px solid #ccc;  padding: 10px;word-break: break-all; margin: auto; width: 800px;
+}
+
+#ul_macro {
+	display: block;
+	background-color: #fff;
+}
+
+.li_mac {
+	display: inline-block;
+}
+
+.li_mac_txt {
+	padding: 10px 5px;
+	color: #777;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.btn_mac {
+	background-color: #27af61;
+	color: #fff;
+	border: 1px solid #27af61;
+}
