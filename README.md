@@ -1,9 +1,4 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+# 오블로그 APi 임시 서버
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
-
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+OhBlog APi 자바 버전 적용 전 임시로 CRUD처리를 위한 임시 Back-end 서버
+현재 작업중인 Java버전 완료시 바로 변경 처리 (현재 CI 구성 서버로는 로그인 헤더쿠키가 없어 로그인 새로고침 처리가 안됨 이부분 스프링 시큐리티REST 로그인으로 구현완료)
